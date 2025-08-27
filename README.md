@@ -15,15 +15,19 @@ It integrates **OpenNI2, OpenCV, OpenGL, and MediaPipe** to capture RGB, Depth, 
 
 ---
 ## Update the openni2.initialize() path in data_collection.py to your SDK path:
-*openni2.initialize("C:\\Program Files\\LIPSedge Camera SDK 1.02\\...\\OpenNI2\\Redist")*
+```
+openni2.initialize("C:\\Program Files\\LIPSedge Camera SDK 1.02\\...\\OpenNI2\\Redist")
+```
 ---
 ## Output 
+```
 dataset/
   ├─ rgb/<class_id>/<user_id>/
   ├─ depth/<class_id>/<user_id>/
   ├─ amplitude/<class_id>/<user_id>/
   ├─ point_cloud/<class_id>/<user_id>/
   └─ full_point_cloud/<class_id>/<user_id>/
+```
 ---
 
 ## Requirements
